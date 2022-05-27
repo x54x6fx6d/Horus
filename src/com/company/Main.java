@@ -26,7 +26,7 @@ public class Main {
         // Button Settingss
         button.setText("Start");
         button.setPreferredSize(new Dimension(100, 50));
-        button.setBackground(Color.GREEN);
+        button.setBackground(Color.CYAN);
         button.setForeground(Color.BLACK);
         button.setFont(new Font("Arial", Font.BOLD, 20));
         button.setBorder(BorderFactory.createLineBorder(Color.BLACK));
@@ -49,6 +49,6 @@ public class Main {
 	}
 
     private static void test() {
-        System.out.println("Test");
-    }
+        minecraft.startMinecraft();
+        }
 }
